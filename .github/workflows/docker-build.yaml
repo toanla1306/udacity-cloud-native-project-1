@@ -36,12 +36,10 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Build and push
-        env:
-          DOCKERHUB_REPOSITORY: ${{ env.DOCKERHUB_REPOSITORY }}
         uses: docker/build-push-action@v2
         with:
           context: .
           file: ./python-helloworld/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: ${{ env.DOCKERHUB_REPOSITORY }}/python-helloworld:latest
+          tags: toanla1306/python-helloworld:latest
