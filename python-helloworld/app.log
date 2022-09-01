@@ -1,0 +1,10 @@
+2022-08-31 09:23:18,291 : WARNING :  * Debugger is active!
+2022-08-31 09:23:18,300 : INFO :  * Debugger PIN: 113-204-669
+2022-08-31 09:23:31,231 : WARNING :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-08-31 09:23:31,232 : INFO :  * Running on http://172.20.10.4:5000/ (Press CTRL+C to quit)
+2022-08-31 09:23:31,324 : INFO : 127.0.0.1 - - [31/Aug/2022 09:23:31] "GET /metrics HTTP/1.1" 200 -
+2022-08-31 09:23:45,877 : INFO : Main request successfull
+2022-08-31 09:23:45,877 : INFO : 127.0.0.1 - - [31/Aug/2022 09:23:45] "GET / HTTP/1.1" 200 -
+2022-08-31 09:24:44,376 : INFO : 127.0.0.1 - - [31/Aug/2022 09:24:44] "GET /metrics HTTP/1.1" 200 -
+2022-08-31 09:24:55,569 : INFO : 127.0.0.1 - - [31/Aug/2022 09:24:55] "[33mGET /noneroute HTTP/1.1[0m" 404 -
