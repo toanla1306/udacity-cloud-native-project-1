@@ -1,7 +1,7 @@
 FROM python:3.8
 LABEL maintainer="Katie Gamanji"
 
-COPY . /app
+COPY ./python-helloworld/ /app
 
 WORKDIR /app
 
