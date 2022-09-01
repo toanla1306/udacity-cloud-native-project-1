@@ -44,4 +44,4 @@ jobs:
           file: ./python-helloworld/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: $DOCKERHUB_REPOSITORY/python-helloworld:latest
+          tags: {{ $DOCKERHUB_REPOSITORY }}/python-helloworld:latest
