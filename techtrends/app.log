@@ -1,0 +1,20 @@
+2022-09-03 23:17:59,224 : WARNING :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-03 23:17:59,224 : INFO :  * Running on http://192.168.11.114:3111/ (Press CTRL+C to quit)
+2022-09-03 23:18:17,971 : DEBUG : Access to about us page
+2022-09-03 23:18:17,983 : INFO : 127.0.0.1 - - [03/Sep/2022 23:18:17] "GET /about HTTP/1.1" 200 -
+2022-09-03 23:18:18,054 : INFO : 127.0.0.1 - - [03/Sep/2022 23:18:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-03 23:18:48,753 : INFO : 127.0.0.1 - - [03/Sep/2022 23:18:48] "GET / HTTP/1.1" 200 -
+2022-09-03 23:18:49,034 : INFO : 127.0.0.1 - - [03/Sep/2022 23:18:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-03 23:18:52,724 : DEBUG : Access to article: Kubernetes v1.20 Release Notes
+2022-09-03 23:18:52,727 : INFO : 127.0.0.1 - - [03/Sep/2022 23:18:52] "GET /3 HTTP/1.1" 200 -
+2022-09-03 23:18:52,790 : INFO : 127.0.0.1 - - [03/Sep/2022 23:18:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-03 23:19:19,849 : DEBUG : non-existing articles are accessed
+2022-09-03 23:19:19,853 : INFO : 127.0.0.1 - - [03/Sep/2022 23:19:19] "[33mGET /300 HTTP/1.1[0m" 404 -
+2022-09-03 23:19:20,153 : INFO : 127.0.0.1 - - [03/Sep/2022 23:19:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-03 23:19:47,087 : INFO : 127.0.0.1 - - [03/Sep/2022 23:19:47] "GET /create HTTP/1.1" 200 -
+2022-09-03 23:19:47,154 : INFO : 127.0.0.1 - - [03/Sep/2022 23:19:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-03 23:20:46,916 : DEBUG : A new article is created
+2022-09-03 23:20:46,917 : INFO : 127.0.0.1 - - [03/Sep/2022 23:20:46] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-09-03 23:20:46,938 : INFO : 127.0.0.1 - - [03/Sep/2022 23:20:46] "GET / HTTP/1.1" 200 -
+2022-09-03 23:20:47,302 : INFO : 127.0.0.1 - - [03/Sep/2022 23:20:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
