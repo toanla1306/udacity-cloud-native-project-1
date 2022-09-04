@@ -1,0 +1,15 @@
+namespace:
+  name: sandbox
+
+service:
+  port: 4111
+  targetPort: 3111
+  protocol: TCP 
+  type: ClusterIP 
+ 
+image:
+  repository: toanla1306/techtrends
+  pullPolicy: IfNotPresent
+  tag: latest
+
+replicaCount: 1
