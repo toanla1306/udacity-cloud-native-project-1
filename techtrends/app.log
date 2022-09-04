@@ -18,3 +18,6 @@
 2022-09-03 23:20:46,917 : INFO : 127.0.0.1 - - [03/Sep/2022 23:20:46] "[32mPOST /create HTTP/1.1[0m" 302 -
 2022-09-03 23:20:46,938 : INFO : 127.0.0.1 - - [03/Sep/2022 23:20:46] "GET / HTTP/1.1" 200 -
 2022-09-03 23:20:47,302 : INFO : 127.0.0.1 - - [03/Sep/2022 23:20:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-04 01:01:39,045 [WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-04 01:01:39,046 [INFO]  * Running on http://192.168.11.114:3111/ (Press CTRL+C to quit)
