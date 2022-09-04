@@ -13,3 +13,20 @@ image:
   tag: latest
 
 replicaCount: 1
+
+resources:
+  request:
+    memory: 64Mi
+    cpu: 250m
+  limits:
+    memory: 128Mi
+    cpu: 500m
+
+livenessProbe:
+    httpGet:
+      path: /healthz
+      port: 3111
+readinessProbe:
+    httpGet:
+      path: /healthz
+      port: 3111

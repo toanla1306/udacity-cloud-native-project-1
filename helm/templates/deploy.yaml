@@ -6,7 +6,7 @@ metadata:
   name: techtrends
   namespace: {{ .Values.namespace.name }}  
 spec:
-  replicas: 1
+  replicas: {{ .Values.replicaCount }} 
   selector:
     matchLabels:
       app: techtrends
@@ -24,12 +24,12 @@ spec:
           protocol: TCP
         livenessProbe:
           httpGet:
-            path: /healthz
-            port: 3111
+            path: {{ .Values.livenessProbe.httpGet.path }}
+            port: {{ .Values.livenessProbe.httpGet.port }}
         readinessProbe:
           httpGet:
-            path: /healthz
-            port: 3111
+            path: {{ .Values.readinessProbe.httpGet.path }}
+            port: {{ .Values.readinessProbe.httpGet.port }}
         resources:
           requests:
             cpu: {{ .Values.resources.request.cpu }}

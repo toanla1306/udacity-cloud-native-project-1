@@ -21,3 +21,19 @@
 2022-09-04 01:01:39,045 [WARNING]  * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 2022-09-04 01:01:39,046 [INFO]  * Running on http://192.168.11.114:3111/ (Press CTRL+C to quit)
+2022-09-04 14:02:26,959 [WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-04 14:02:26,961 [INFO]  * Running on http://192.168.11.114:3111/ (Press CTRL+C to quit)
+2022-09-04 14:02:45,922 [INFO] 127.0.0.1 - - [04/Sep/2022 14:02:45] "GET / HTTP/1.1" 200 -
+2022-09-04 14:02:45,987 [INFO] 127.0.0.1 - - [04/Sep/2022 14:02:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-04 14:02:54,929 [DEBUG] Access to article: 2020 CNCF Annual Report
+2022-09-04 14:02:54,944 [INFO] 127.0.0.1 - - [04/Sep/2022 14:02:54] "GET /1 HTTP/1.1" 200 -
+2022-09-04 14:02:55,228 [INFO] 127.0.0.1 - - [04/Sep/2022 14:02:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-04 14:06:50,189 [WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-04 14:06:50,191 [INFO]  * Running on http://192.168.11.114:3111/ (Press CTRL+C to quit)
+2022-09-04 14:06:55,826 [INFO] 127.0.0.1 - - [04/Sep/2022 14:06:55] "GET / HTTP/1.1" 200 -
+2022-09-04 14:06:55,885 [INFO] 127.0.0.1 - - [04/Sep/2022 14:06:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-04 14:06:59,552 [DEBUG] Access to article: 2020 CNCF Annual Report
+2022-09-04 14:06:59,562 [INFO] 127.0.0.1 - - [04/Sep/2022 14:06:59] "GET /1 HTTP/1.1" 200 -
+2022-09-04 14:06:59,848 [INFO] 127.0.0.1 - - [04/Sep/2022 14:06:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
